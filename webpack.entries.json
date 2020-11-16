@@ -1,0 +1,5 @@
+{
+  "sample-component-js/sample-component": {
+    "dependencies": ["./sample-component-js/lib/sample-component/index"]
+  }
+}

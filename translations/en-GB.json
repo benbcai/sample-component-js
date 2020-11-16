@@ -1,0 +1,5 @@
+{
+  "sample-component-engine.sample-component": "Success.",
+  "sample-component-engine.sample-component-failed-to-load": "Error! Failed to load.",
+  "sample-component-engine.no-sample-component": "Not available."
+}

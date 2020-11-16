@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a SampleComponentView that has succeeded with a valid SampleComponentEngine 1`] = `
+<div
+  className="content-container-static"
+>
+  <div
+    className="header"
+  >
+    <ActionHeader
+      level={1}
+      title="sample-component-engine.sample-component"
+    />
+  </div>
+  <div
+    className="main"
+  >
+    <Scroll
+      className="normalizer"
+    >
+      <Spacer
+        isInlineBlock={false}
+        marginBottom="none"
+        marginLeft="none"
+        marginRight="none"
+        marginTop="none"
+        paddingBottom="large+1"
+        paddingLeft="large+1"
+        paddingRight="large+1"
+        paddingTop="large+1"
+      >
+        SampleComponent
+      </Spacer>
+    </Scroll>
+  </div>
+</div>
+`;
+
+exports[`should render a SampleComponentView with no data 1`] = `
+<div
+  className="content-container-static"
+>
+  <div
+    className="header"
+  >
+    <ActionHeader
+      level={1}
+      title="sample-component-engine.sample-component"
+    />
+  </div>
+  <div
+    className="main"
+  >
+    <Scroll
+      className="normalizer"
+    >
+      <Spacer
+        isInlineBlock={false}
+        marginBottom="none"
+        marginLeft="none"
+        marginRight="none"
+        marginTop="none"
+        paddingBottom="large+1"
+        paddingLeft="large+1"
+        paddingRight="large+1"
+        paddingTop="large+1"
+      >
+        <StatusView
+          buttonAttrs={Array []}
+          isAlignedTop={false}
+          isGlyphHidden={true}
+          message="sample-component-engine.no-sample-component"
+          variant="no-data"
+        />
+      </Spacer>
+    </Scroll>
+  </div>
+</div>
+`;
